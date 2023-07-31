@@ -12,3 +12,5 @@ kubectl auth can-i create pods
 kubectl run nginx --image=nginx
 
 aws iam get-role --profile am-devops1 --role-name eks-admin
+
+aws sts assume-role --role-arn arn000000000000 --role-session-name manager-session --profile manager
