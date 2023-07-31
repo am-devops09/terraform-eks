@@ -10,3 +10,5 @@ kubectl auth can-i get pods
 kubectl auth can-i create pods
 
 kubectl run nginx --image=nginx
+
+aws iam get-role --profile am-devops1 --role-name eks-admin
