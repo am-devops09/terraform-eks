@@ -2,3 +2,7 @@ aws eks describe-cluster --name demo --query cluster.identity.oidc.issuer --outp
 
 
 kubectl describe sa aws-test
+
+kubectl config view --minify
+
+kubectl auth can-i get pods
